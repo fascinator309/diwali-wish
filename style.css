@@ -129,8 +129,8 @@ section.content img {
 		width: 48%;         /* Each image takes up roughly half the row */
 		margin-bottom: 10px;
 	}
-	#favImag {
+	/* #favImag {
 		max-height: 300px;
-	}
+	} */
 }
 

@@ -100,28 +100,9 @@ section.content img {
 }
 
 /* For smaller tablets and large phones */
-@media (max-width: 768px) {
-	section.content h2 {
-		font-size: 4em;
-		line-height: 1em;
-	}
-	section.content h2 span {
-		font-size: 0.4em;
-		top: -20px;
-	}
-	.name {
-		font-size: 1.5em;
-	}
-	section.content img {
-		max-width: 150px;
-	}
-	.imgbox {
-		flex-direction: column; /* Stack images vertically for better fit */
-	}
-}
 
 /* For small screens and phones */
-@media (max-width: 480px) {
+@media (max-width: 768px) {
 	section.content h2 {
 		font-size: 2.5em;
 		line-height: 1.1em;
